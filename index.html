@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover learning resources, courses, internships and career opportunities.">
+  <title>CodeConnect Directory</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="CodeConnect Directory home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span>CodeConnect <span class="brand-light">/ DIRECTORY</span></span>
+    </a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#browse">Browse Resources</a>
+      <a href="#favourites">Favourites</a>
+      <a href="#contact">Contact</a>
+      <a href="#project-plan">Project Plan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro" id="home" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <p class="eyebrow">LEARN, CONNECT, MOVE FORWARD</p>
+        <h1 id="page-title">CodeConnect<br><span>Directory.</span></h1>
+        <p class="intro-description">Discover learning resources, courses, internships and career opportunities in one practical directory.</p>
+      </div>
+      <div class="intro-note" aria-label="Directory summary">
+        <span class="note-number" id="resource-count">--</span>
+        <span class="note-label">resources<br>and counting</span>
+      </div>
+    </section>
+
+    <section class="directory-section" id="browse" aria-labelledby="directory-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">BROWSE THE DIRECTORY</p>
+          <h2 id="directory-title">Find a resource for your next step.</h2>
+        </div>
+      </div>
+
+      <form class="filters" id="filterForm" role="search">
+        <label class="search-field">
+          <span class="visually-hidden">Search resources</span>
+          <span class="search-icon" aria-hidden="true">&#9906;</span>
+          <input id="searchInput" type="search" placeholder="Search by name or keyword..." autocomplete="off">
+        </label>
+        <label class="select-field">
+          <span class="visually-hidden">Filter by category</span>
+          <select id="categoryFilter">
+            <option value="all">All categories</option>
+          </select>
+        </label>
+        <label class="select-field">
+          <span class="visually-hidden">Filter by location</span>
+          <select id="locationFilter">
+            <option value="all">All locations</option>
+          </select>
+        </label>
+        <button class="text-button clear-filters" id="clearFilters" type="button">Clear filters</button>
+      </form>
+
+      <p class="results-summary" id="resultsCount" aria-live="polite"></p>
+      <div class="status-message" id="statusMessage" role="status" aria-live="polite">
+        <span class="loader" aria-hidden="true"></span>
+        <span>Loading resources...</span>
+      </div>
+      <div class="resource-grid" id="contentGrid" aria-live="polite" aria-busy="true"></div>
+    </section>
+
+    <section class="directory-section favorites-section" id="favourites" aria-labelledby="favourites-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR SAVED LIST</p>
+          <h2 id="favourites-title">Favourites <span class="favorite-count" id="favoriteCount">(0)</span></h2>
+        </div>
+      </div>
+      <p class="favorites-message" id="favoritesMessage" aria-live="polite">Your saved resources will appear here.</p>
+      <div class="resource-grid" id="favoritesGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="eyebrow">KNOW SOMETHING WE SHOULD ADD?</p>
+        <h2 id="contact-title">Help the directory grow.</h2>
+        <p>Share a resource that could help someone learn, find work or connect with their community.</p>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="contactName">Your name</label>
+          <input id="contactName" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="nameError">
+          <small class="field-error" id="nameError"></small>
+        </div>
+        <div class="form-row">
+          <label for="contactEmail">Email address</label>
+          <input id="contactEmail" name="email" type="email" autocomplete="email" required aria-describedby="emailError">
+          <small class="field-error" id="emailError"></small>
+        </div>
+        <div class="form-row">
+          <label for="contactMessage">Resource or message</label>
+          <textarea id="contactMessage" name="message" rows="3" required minlength="10" aria-describedby="messageError"></textarea>
+          <small class="field-error" id="messageError"></small>
+        </div>
+        <button class="submit-button" type="submit">Send suggestion <span aria-hidden="true">&#8594;</span></button>
+        <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="project-plan" id="project-plan" aria-labelledby="project-plan-title">
+      <p class="eyebrow">MONTH 1 PROJECT PLAN</p>
+      <h2 id="project-plan-title">Plan, build, learn.</h2>
+      <h3>User stories</h3>
+      <ul class="user-stories">
+        <li>As a learner, I want to search and filter resources so I can find a useful next step.</li>
+        <li>As a visitor, I want to save favourites so I can return to them later.</li>
+        <li>As a visitor, I want helpful form feedback so I can correct missing or invalid details.</li>
+        <li>As a maintainer, I want resource data separate from the page so entries are easier to update.</li>
+      </ul>
+      <h3>Wireframes</h3>
+      <div class="wireframes">
+        <figure>
+          <figcaption>Desktop</figcaption>
+          <pre class="wireframe" aria-label="Desktop wireframe"><code>+--------------------------------------+
+ Header and navigation                +
++--------------------------------------+
+ Welcome and introduction             +
++--------------------------------------+
+ Search | Category | Location | Clear +
+ Results count                        +
+ Resource cards in three columns       +
++--------------------------------------+
+ Favourites | Contact | Project Plan  +
++--------------------------------------+</code></pre>
+        </figure>
+        <figure>
+          <figcaption>Mobile</figcaption>
+          <pre class="wireframe" aria-label="Mobile wireframe"><code>+----------------------+
+ Header and menu       +
++----------------------+
+ Welcome               +
++----------------------+
+ Search                +
+ Category and Location +
+ Resource card         +
+ Resource card         +
++----------------------+
+ Favourites and form   +
++----------------------+</code></pre>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>CodeConnect Directory</span>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>

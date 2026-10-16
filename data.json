@@ -1,0 +1,152 @@
+[
+  {
+    "id": "capaciti-digital-skills",
+    "title": "CAPACITI Digital Skills Programmes",
+    "category": "Courses",
+    "location": "Cape Town",
+    "description": "Explore digital skills training for people preparing for technology careers. Check the official site for current programmes, dates and eligibility.",
+    "type": "Digital skills programme",
+    "provider": "CAPACITI",
+    "url": "https://capaciti.org.za/"
+  },
+  {
+    "id": "getsmarter-short-courses",
+    "title": "GetSmarter Online Short Courses",
+    "category": "Courses",
+    "location": "Cape Town",
+    "description": "Browse online short courses offered with university partners. Course availability, fees and entry requirements vary.",
+    "type": "Online short courses",
+    "provider": "GetSmarter",
+    "url": "https://www.getsmarter.com/"
+  },
+  {
+    "id": "alx-africa-learning",
+    "title": "ALX Africa Learning Programmes",
+    "category": "Courses",
+    "location": "Remote",
+    "description": "Explore online technology and professional skills learning for African learners. Check the provider site for current course options and eligibility.",
+    "type": "Online learning programmes",
+    "provider": "ALX Africa",
+    "url": "https://www.alxafrica.com/"
+  },
+  {
+    "id": "cisco-networking-academy",
+    "title": "Cisco Networking Academy",
+    "category": "Courses",
+    "location": "Remote",
+    "description": "Find technology and networking courses through Cisco's official learning platform. Course formats and availability may change.",
+    "type": "Technology courses",
+    "provider": "Cisco Networking Academy",
+    "url": "https://www.netacad.com/"
+  },
+  {
+    "id": "freecodecamp-web-development",
+    "title": "freeCodeCamp Web Development Curriculum",
+    "category": "Learning Resources",
+    "location": "Remote",
+    "description": "Practise web development with free lessons and coding projects that you can complete at your own pace.",
+    "type": "Free self-paced curriculum",
+    "provider": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/"
+  },
+  {
+    "id": "mdn-web-docs",
+    "title": "MDN Web Docs",
+    "category": "Learning Resources",
+    "location": "Remote",
+    "description": "Use reference guides and tutorials for HTML, CSS, JavaScript and other web technologies.",
+    "type": "Web development documentation",
+    "provider": "MDN",
+    "url": "https://developer.mozilla.org/"
+  },
+  {
+    "id": "javascript-info",
+    "title": "The Modern JavaScript Tutorial",
+    "category": "Learning Resources",
+    "location": "Remote",
+    "description": "Read structured JavaScript lessons covering language fundamentals and browser programming.",
+    "type": "JavaScript tutorial",
+    "provider": "javascript.info",
+    "url": "https://javascript.info/"
+  },
+  {
+    "id": "microsoft-learn",
+    "title": "Microsoft Learn",
+    "category": "Learning Resources",
+    "location": "Remote",
+    "description": "Browse self-paced technical learning paths and documentation from Microsoft Learn.",
+    "type": "Online learning platform",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/"
+  },
+  {
+    "id": "careers24-internships",
+    "title": "Careers24 Internship Search",
+    "category": "Internships",
+    "location": "Johannesburg",
+    "description": "Demonstration directory entry linking to a general job-search provider. It is not a current or verified internship; check employer details and requirements on the official site.",
+    "type": "Internship search portal",
+    "provider": "Careers24",
+    "url": "https://www.careers24.com/"
+  },
+  {
+    "id": "pnet-internships",
+    "title": "PNet Internship and Graduate Search",
+    "category": "Internships",
+    "location": "Durban",
+    "description": "Demonstration directory entry linking to a general recruitment site. No vacancy is verified here; search the official site and confirm details before applying.",
+    "type": "Internship and graduate search portal",
+    "provider": "PNet",
+    "url": "https://www.pnet.co.za/"
+  },
+  {
+    "id": "yes-youth-opportunities",
+    "title": "YES Youth Work Experience Information",
+    "category": "Internships",
+    "location": "Cape Town",
+    "description": "Explore information about youth work experience programmes. This example does not confirm an active placement; check the official site for current details.",
+    "type": "Youth work experience information",
+    "provider": "Youth Employment Service (YES)",
+    "url": "https://www.yes4youth.co.za/"
+  },
+  {
+    "id": "harambee-career-support",
+    "title": "Harambee Youth Employment Support",
+    "category": "Career Opportunities",
+    "location": "Johannesburg",
+    "description": "Find information about employment support and opportunities for young people. Programme access and availability should be confirmed with Harambee.",
+    "type": "Youth employment support",
+    "provider": "Harambee Youth Employment Accelerator",
+    "url": "https://www.harambee.co.za/"
+  },
+  {
+    "id": "city-cape-town-careers",
+    "title": "City of Cape Town Careers Information",
+    "category": "Career Opportunities",
+    "location": "Cape Town",
+    "description": "Use the official city website to look for municipal career information. This directory example does not represent a live or verified vacancy.",
+    "type": "Municipal careers information",
+    "provider": "City of Cape Town",
+    "url": "https://www.capetown.gov.za/"
+  },
+  {
+    "id": "city-joburg-careers",
+    "title": "City of Johannesburg Careers Information",
+    "category": "Career Opportunities",
+    "location": "Johannesburg",
+    "description": "Visit the official city website and look for its careers information. No open role or application link is verified by this sample entry.",
+    "type": "Municipal careers information",
+    "provider": "City of Johannesburg",
+    "url": "https://www.joburg.org.za/"
+  },
+  {
+    "id": "ethekwini-careers",
+    "title": "eThekwini Municipality Careers Information",
+    "category": "Career Opportunities",
+    "location": "Durban",
+    "description": "Use the official municipal website to find career notices and requirements. This sample is not an active or verified job advertisement.",
+    "type": "Municipal careers information",
+    "provider": "eThekwini Municipality",
+    "url": "https://www.durban.gov.za/"
+  }
+]
